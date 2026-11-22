@@ -1,5 +1,5 @@
 /* Login + per-report payment layer. Statistics code in index.html is untouched. */
-const CFG={SB_URL:'PASTE_SUPABASE_URL',SB_KEY:'PASTE_SUPABASE_ANON_KEY',RZP_KEY:'PASTE_RAZORPAY_KEY_ID',ADMIN:'nithish2577@gmail.com'};
+const CFG={SB_URL:'https://sgthddcqbqokyukombrb.supabase.co',SB_KEY:'sb_publishable_Df0w1jPzqZu57XZ0NTpFRQ_xaBVFX7e',RZP_KEY:'rzp_test_U3AZJgx0HovwTm',ADMIN:'nithish2577@gmail.com'};
 (()=>{const sb=supabase.createClient(CFG.SB_URL,CFG.SB_KEY),$=i=>document.getElementById(i);
 let U=null,BAL=0,ADM=false,started=false,mode='in';
 const st=document.createElement('style');st.textContent='#gb{position:fixed;top:12px;left:12px;z-index:60;display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:6px 12px;font-size:13px}#gm{position:fixed;inset:0;z-index:99;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:16px}#gm>div{background:var(--card);color:var(--tx);border-radius:16px;padding:22px;max-width:380px;width:100%}#gm input{width:100%;padding:11px;margin:6px 0;border:1px solid var(--bd);border-radius:10px;background:var(--inp);color:var(--tx);font-size:16px;box-sizing:border-box}#gm .btn{width:100%;justify-content:center;margin-top:8px}';document.head.appendChild(st);
