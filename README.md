@@ -24,6 +24,3 @@ Paste SB_URL, SB_KEY (anon key) and RZP_KEY (Key ID only). Admin email is alread
 
 ## Flow
 Home is open to all. Choosing the Excel file needs login and a ₹50 payment. Each payment is one report; the paid credit is used when the file is chosen. Changing the file shows a warning and needs a new payment. After the Word download the session ends.
-
-## Honest limit
-Payments and credits are checked on the server. But the Word file is made in the visitor's browser, so a technically skilled person could edit the page's code to bypass the lock. This stops ordinary users, not determined hackers.
